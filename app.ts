@@ -3,7 +3,7 @@ import express, {
   type Response,
   type NextFunction,
 } from "express";
-import todosRoutes from "./routes/todo.js";
+import todosRoutes from "./routes/todo.ts";
 
 const app = express();
 

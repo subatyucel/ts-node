@@ -5,8 +5,7 @@ import {
   getTodo,
   removeTodo,
   updateTodo,
-} from "../data.js";
-import test from "node:test";
+} from "../data.ts";
 
 const router = express.Router();
 
